@@ -1,14 +1,46 @@
-<!DOCTYPE html>
-<html lang = "en">
-
-   <head>
-      <meta charset = "UTF-8">
-      <title>React App</title>
-   </head>
-
-   <body>
-      <div id = "app"></div>
-      <script src = "index.js"></script>
-   </body>
-
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/JavaScript" src="build.js"></script>
+  </head>
+  <body>
+  <div class="build-form">
+    <form method="get" action="">
+      <div class="group">
+        <label>Brand</label>
+        <select id="brand">
+          <option value="sunet">Sunset</option>
+          <option value="coastalliving">Coastal Living</option>
+          <option value="southernliving">Southernliving</option>
+          <option value="travleandleisure">Travle and Leisure</option>
+          <option value="myreciepes">My Reciepes</option>
+        </select>
+      </div>
+      <div class="group">
+        <label>Branch</label>
+        <select id="branch">
+        </select>
+      </div>
+      <div class="group">
+        <label>Pattern Lab Branch</label>
+        <select id="plbranch">
+        </select>
+      </div>
+      <div class="group">
+        <label>Integrator</label>
+        <select id="integrator">
+        </select>
+      </div>
+      <div class="group">
+        <label>Database</label>
+        <select id="database">
+        </select>
+      </div>
+      <div class="build">
+      <button>Build</button>
+    </div>
+      </form>
+  </div>
+  </body>
 </html>
